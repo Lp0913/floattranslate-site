@@ -1,9 +1,0 @@
-{
-  "name": "FloatTranslate",
-  "short_name": "FloatTranslate",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#f7faff",
-  "theme_color": "#087eff",
-  "description": "macOS cross-application selected-text translation and pronunciation tool"
-}
