@@ -2,7 +2,7 @@
 
 FloatTranslate 是一个 macOS 原生划词翻译工具。启动后它在后台和菜单栏运行，你在 Word、PDF、网页、聊天软件等任意应用中选中文字，按下快捷键，翻译、词典解释和朗读面板会直接出现在当前内容旁边。
 
-![FloatTranslate 产品预览](docs/images/product-overview.svg)
+![FloatTranslate 产品预览](docs/images/product-overview-v2.svg)
 
 这个仓库用于放 FloatTranslate 软件源码、构建脚本、安装说明和使用说明。旧的 IELTS 点读器网页内容已经不作为本项目内容使用。
 
