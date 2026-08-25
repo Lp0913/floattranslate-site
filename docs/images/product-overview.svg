@@ -1,0 +1,27 @@
+<svg width="1200" height="680" viewBox="0 0 1200 680" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="680" rx="36" fill="#F3F7FB"/>
+  <text x="86" y="116" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="54" font-weight="800" fill="#161B22">选中即翻译，也能听见</text>
+  <text x="88" y="166" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="22" fill="#64748B">在 Word、PDF、网页和聊天软件中选中文字，按快捷键弹出浮动面板。</text>
+  <rect x="86" y="238" width="480" height="250" rx="24" fill="white" stroke="#D8E3EF"/>
+  <text x="126" y="304" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="26" font-weight="700" fill="#1F2937">阅读材料</text>
+  <text x="126" y="358" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" fill="#4B5563">Reading should stay focused,</text>
+  <rect x="126" y="374" width="285" height="42" rx="8" fill="#DDEBFF"/>
+  <text x="138" y="403" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" fill="#111827">not fragmented.</text>
+  <path d="M460 401 C548 384 575 338 632 315" stroke="#0A84FF" stroke-width="6" stroke-linecap="round" stroke-dasharray="12 14"/>
+  <rect x="628" y="168" width="470" height="350" rx="34" fill="white" stroke="#DFE7F0" filter="url(#shadow)"/>
+  <rect x="672" y="210" width="36" height="30" rx="8" fill="#0A84FF"/>
+  <text x="681" y="230" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="11" font-weight="800" fill="white">Lee</text>
+  <text x="724" y="232" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#374151">FloatTranslate</text>
+  <circle cx="1050" cy="225" r="18" fill="#F0F2F5"/>
+  <text x="1043" y="232" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#7B8490">×</text>
+  <rect x="672" y="268" width="382" height="92" rx="18" fill="#F1F4F8"/>
+  <text x="700" y="302" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#7B8490">原文</text>
+  <text x="700" y="334" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="17" fill="#374151">Reading should stay focused, not fragmented.</text>
+  <circle cx="1018" cy="312" r="18" fill="#DDEBFF"/>
+  <text x="1010" y="319" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="17" fill="#0A84FF">♪</text>
+  <text x="700" y="407" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#0A84FF">英音 /ˈriːdɪŋ/ · 美音 /ˈriːdɪŋ/</text>
+  <text x="700" y="456" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="700" fill="#1F2937">阅读应该保持专注，而不是被频繁打断。</text>
+  <line x1="672" y1="482" x2="1054" y2="482" stroke="#E5E7EB"/>
+  <text x="700" y="510" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#374151">→ 简体中文</text>
+  <defs><filter id="shadow" x="590" y="130" width="546" height="426" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#64748B" flood-opacity="0.18"/></filter></defs>
+</svg>
