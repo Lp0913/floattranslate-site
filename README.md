@@ -2,7 +2,19 @@
 
 FloatTranslate 是一个 macOS 原生划词翻译工具。启动后它在后台和菜单栏运行，你在 Word、PDF、网页、聊天软件等任意应用中选中文字，按下快捷键，翻译、词典解释和朗读面板会直接出现在当前内容旁边。
 
+![FloatTranslate 产品预览](docs/images/product-overview.svg)
+
 这个仓库用于放 FloatTranslate 软件源码、构建脚本、安装说明和使用说明。旧的 IELTS 点读器网页内容已经不作为本项目内容使用。
+
+## 下载体验版
+
+打包好的 Mac 体验版建议放在 GitHub Releases 中，避免把二进制安装包直接混进源码目录。
+
+- 下载入口：[GitHub Releases](https://github.com/Lp0913/floattranslate-site/releases)
+- 本地已准备好的安装包：`dist/FloatTranslate-share.zip`
+- 官网下载包同源文件：`website/public/downloads/FloatTranslate-macOS.zip`
+
+如果你是普通用户，只需要下载 `.zip`，解压后把 `FloatTranslate.app` 拖到 `应用程序` 文件夹即可。
 
 ## 适合谁使用
 
