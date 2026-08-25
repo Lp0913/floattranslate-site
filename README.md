@@ -74,46 +74,71 @@ open dist/FloatTranslate.app
 dist/FloatTranslate.app
 ```
 
+如果 Swift 在本机缓存目录报权限问题，可以把模块缓存放到临时目录：
+
+```bash
+CLANG_MODULE_CACHE_PATH=/private/tmp/floattranslate-clang-cache \
+SWIFT_MODULECACHE_PATH=/private/tmp/floattranslate-swift-cache \
+swift build --disable-sandbox -c release --product FloatTranslate
+```
+
 ## 运行测试
 
 ```bash
 swift test
-```
-
-或者运行项目内自检脚本：
-
-```bash
 ./scripts/run-self-tests.sh
 ```
+
+如果 `swift test` 提示找不到 `XCTest`，通常是 Xcode 或 Command Line Tools 没有正确安装或选择。可以先运行：
+
+```bash
+xcode-select -p
+```
+
+确认当前使用的是可用的 Xcode/Command Line Tools。
 
 ## 源码结构
 
 ```text
-Package.swift
-Resources/Info.plist
 Sources/FloatTranslate/
-Tests/FloatTranslateTests/
+  FloatTranslateApp.swift              应用入口
+  AppDelegate.swift                     菜单栏、权限、快捷键协调
+  TextCaptureService.swift              跨应用读取选中文字
+  HotKeyManager.swift                   全局快捷键
+  TranslationViewModel.swift            翻译流程、状态、超时处理
+  TranslationCardView.swift             浮动翻译面板
+  TranslationPanelController.swift      NSPanel 展示和定位
+  DictionaryService.swift               macOS 系统词典查询
+  DefinitionFormatter.swift             词典释义、词性、音标格式化
+  SpeechService.swift                   系统朗读、英音/美音/中文语音
+  SettingsView.swift                    设置界面
+Resources/
+  Info.plist                            macOS App 配置
 scripts/
+  build-app.sh                          构建 .app
+  package-for-sharing.sh                打包分享版
+  setup-local-signing.sh                本地签名身份
+  run-self-tests.sh                     自测脚本
 ```
 
-主要模块：
+## 权限说明
 
-- `TextCaptureService`：跨应用获取选中文字
-- `HotKeyManager`：全局快捷键
-- `TranslationPanelController`：浮动面板控制
-- `TranslationCardView`：翻译卡片界面
-- `DictionaryService`：词典和释义
-- `SpeechService`：英音、美音朗读
-- `AppSettings` / `SettingsView`：用户设置
+FloatTranslate 需要两个 macOS 权限：
+
+- 辅助功能：用于读取当前应用中的选中文字
+- 输入监控：用于监听全局快捷键
+
+这些权限只用于本机读取选择文本和响应快捷键。当前版本不包含用户账户、云端同步或付费知识库功能。
 
 ## 隐私说明
 
-FloatTranslate 的目标是尽量使用 macOS 本地能力完成翻译和朗读。当前版本不存储用户选中的文本，也不保存翻译历史。
+当前版本优先使用 macOS 系统翻译、系统词典和系统朗读能力。选中的文本主要在本机处理。后续如果加入云端账户、生词本、知识库或在线翻译服务，应在应用和官网中单独说明数据上传范围、保存方式和删除方式。
 
 ## 后续计划
 
-- 增加正式签名和公证版本
-- 增加官网下载包和版本发布页
-- 增加本地生词收藏
-- 增加云端账户和知识库能力
-- 优化更多词典释义和短语覆盖
+- 本地生词收藏
+- 云端账号和同步
+- 生词复习、单词总结
+- 更完整的安装引导页
+- 正式签名和公证下载包
+- 官网下载页和更新日志
