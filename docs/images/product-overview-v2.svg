@@ -1,0 +1,86 @@
+<svg width="1400" height="790" viewBox="0 0 1400 790" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="panelShadow" x="676" y="72" width="650" height="626" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="30" stdDeviation="28" flood-color="#64748B" flood-opacity="0.18"/>
+    </filter>
+    <filter id="softShadow" x="40" y="44" width="1320" height="710" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="34" flood-color="#CBD5E1" flood-opacity="0.28"/>
+    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EEF4FA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="790" fill="url(#bg)"/>
+  <rect x="54" y="54" width="1292" height="682" rx="38" fill="#F8FAFC" filter="url(#softShadow)"/>
+
+  <g opacity="0.42">
+    <text x="102" y="92" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="32" font-weight="700" fill="#E2E8F0">Word</text>
+    <text x="245" y="92" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="32" font-weight="700" fill="#E2E8F0">PDF</text>
+    <text x="365" y="92" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="32" font-weight="700" fill="#E2E8F0">网页</text>
+    <text x="1040" y="705" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="26" font-weight="700" fill="#E2E8F0">微信 / 邮件 / 文档</text>
+  </g>
+
+  <rect x="104" y="138" width="246" height="38" rx="12" fill="#E8F3FF"/>
+  <text x="126" y="163" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#0A84FF">原生 macOS 划词翻译工具</text>
+
+  <text x="104" y="258" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="68" font-weight="800" letter-spacing="-1" fill="#171A1F">FloatTranslate</text>
+  <text x="104" y="334" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="50" font-weight="800" fill="#171A1F">选中即翻译，</text>
+  <text x="104" y="392" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="50" font-weight="800" fill="#171A1F">也能听见。</text>
+
+  <text x="106" y="458" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="23" fill="#64748B">在 Word、PDF、网页和聊天软件中保持阅读节奏。</text>
+  <text x="106" y="492" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="23" fill="#64748B">选中文字，按下快捷键，翻译浮窗直接出现在光标旁。</text>
+
+  <g transform="translate(106 572)">
+    <rect width="164" height="56" rx="18" fill="#111827"/>
+    <text x="28" y="36" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="25" font-weight="700" fill="white">⌥ Space</text>
+  </g>
+  <text x="296" y="607" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" fill="#64748B">后台运行 · 本地翻译 · Apple 系统朗读</text>
+
+  <g filter="url(#panelShadow)">
+    <rect x="720" y="112" width="560" height="540" rx="28" fill="white"/>
+    <rect x="720" y="112" width="560" height="540" rx="28" stroke="#E2E8F0"/>
+    <rect x="732" y="124" width="560" height="540" rx="28" fill="#CBD5E1" opacity="0.26"/>
+  </g>
+
+  <g transform="translate(758 152)">
+    <rect width="54" height="38" rx="12" fill="#0A84FF"/>
+    <text x="27" y="25" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="16" font-weight="800" fill="white">Lee</text>
+    <text x="74" y="27" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="31" font-weight="700" fill="#20242B">FloatTranslate</text>
+    <circle cx="504" cy="20" r="22" fill="#F1F5F9"/>
+    <text x="496" y="28" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="700" fill="#94A3B8">×</text>
+  </g>
+
+  <g transform="translate(758 232)">
+    <rect width="484" height="112" rx="20" fill="#F1F5F9"/>
+    <text x="28" y="36" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#7A8493">原文</text>
+    <text x="28" y="76" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" fill="#1F2937">Reading should stay focused, not fragmented.</text>
+    <circle cx="446" cy="38" r="19" fill="#DBEAFF"/>
+    <path d="M439 34v9l7-5.5L439 32v2Z" fill="#0A84FF"/>
+    <path d="M449 32c4 4 4 9 0 13" stroke="#0A84FF" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(758 384)">
+    <text x="0" y="0" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#0A84FF">英音 /ˈriːdɪŋ/ · 美音 /ˈriːdɪŋ/</text>
+    <rect x="300" y="-23" width="82" height="32" rx="16" fill="#E8F3FF"/>
+    <text x="323" y="-2" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#0A84FF">英音</text>
+    <rect x="392" y="-23" width="82" height="32" rx="16" fill="#E8F3FF"/>
+    <text x="415" y="-2" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#0A84FF">美音</text>
+  </g>
+
+  <g transform="translate(758 438)">
+    <text x="0" y="0" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#7A8493">译文</text>
+    <circle cx="446" cy="-6" r="19" fill="#DBEAFF"/>
+    <path d="M439 -10v9l7-5.5L439 -12v2Z" fill="#0A84FF"/>
+    <path d="M449 -12c4 4 4 9 0 13" stroke="#0A84FF" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="0" y="58" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="29" font-weight="800" fill="#171A1F">阅读应该保持专注，而不是被频繁打断。</text>
+  </g>
+
+  <line x1="758" y1="562" x2="1242" y2="562" stroke="#E5E7EB"/>
+  <text x="758" y="608" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#1F2937">→ 简体中文</text>
+  <rect x="1126" y="584" width="116" height="42" rx="15" fill="#E8F3FF"/>
+  <text x="1153" y="611" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#0A84FF">复制译文</text>
+
+  <text x="104" y="700" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="16" fill="#94A3B8">macOS 15+ · Apple 芯片 · 中文 / English</text>
+</svg>
